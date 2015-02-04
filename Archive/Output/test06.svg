@@ -1,0 +1,86 @@
+<svg width="435.8" height="189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generated at Tue Feb  3 12:29:09 2015 by:
+  Graph::Easy v0.73
+  Graph::Easy::As_svg v0.23
+-->
+
+<title>Untitled graph</title>
+<defs>
+ <!-- open arrow -->
+ <g id="ah" stroke-linecap="round" stroke-width="1">
+  <line x1="-8" y1="-4" x2="1" y2="0" />
+  <line x1="1" y1="0" x2="-8" y2="4" />
+ </g>
+
+ <!-- class definitions -->
+ <style type="text/css"><![CDATA[
+ .edge {
+  font-size: 13px;
+  stroke: black;
+  text-align: center;
+ }
+ .graph {
+  font-size: 16px;
+  text-align: center;
+ }
+ .node {
+  font-size: 16px;
+  text-align: center;
+ }
+ ]]></style>
+</defs>
+
+<!-- graph background with border (mainly for printing) -->
+<rect x="0.5" y="0.5" width="433.8" height="187" fill="white" stroke="white" />
+
+<g id="2" class="edge">
+ <!-- from Main App to #1 -->
+ <!-- horizontal -->
+ <line x1="128.84" y1="148.6" x2="163.4" y2="148.6" stroke="#000000" />
+
+ <!-- horizontal -->
+ <line x1="163.4" y1="148.6" x2="214.24" y2="148.6" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" x="215.24" y="148.6"/>
+</g>
+
+<g id="4" class="edge">
+ <!-- from #1 to Reports -->
+ <!-- vertical -->
+ <line x1="233.8" y1="87.8" x2="233.8" y2="119.8" stroke="#000000" />
+
+ <!-- vertical -->
+ <line x1="233.8" y1="61.8" x2="233.8" y2="87.8" stroke="#000000" />
+
+ <!-- south/east corner -->
+ <g stroke="#000000">
+  <line x1="233.8" y1="38.9" x2="233.8" y2="61.8" />
+  <line x1="233.3" y1="39.4" x2="246.6" y2="39.4" />
+ </g>
+
+ <!-- horizontal -->
+ <line x1="246.6" y1="39.4" x2="272.2" y2="39.4" stroke="#000000" />
+
+ <!-- horizontal -->
+ <line x1="272.2" y1="39.4" x2="323.04" y2="39.4" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" x="324.04" y="39.4"/>
+</g>
+
+<g id="0" class="node">
+ <!-- Main App, rect -->
+ <rect fill="#ffffff" height="43.8" stroke="#000000" width="107" x="17.5" y="126.7" />
+ <text x="71" y="154" style="font-family:serif" fill="#000000" text-anchor="middle">Main App</text>
+</g>
+
+<g id="1" class="node_anon">
+ <!-- anon node #1, rect -->
+ <rect fill="#ffffff" height="44.8" width="25.6" x="221" y="126.2" />
+ <text x="233" y="154" fill="#000000" text-anchor="middle"></text>
+</g>
+
+<g id="3" class="node">
+ <!-- Reports, rect -->
+ <rect fill="#ffffff" height="43.8" stroke="#000000" width="87" x="330.3" y="17.5" />
+ <text x="373" y="45" style="font-family:serif" fill="#000000" text-anchor="middle">Reports</text>
+</g>
+
+</svg>

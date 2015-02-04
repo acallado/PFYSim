@@ -1,0 +1,109 @@
+<svg width="607.2" height="299" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generated at Tue Feb  3 18:14:50 2015 by:
+  Graph::Easy v0.73
+  Graph::Easy::As_svg v0.23
+-->
+
+<title>Untitled graph</title>
+<defs>
+ <!-- open arrow -->
+ <g id="ah" stroke-linecap="round" stroke-width="1">
+  <line x1="-8" y1="-4" x2="1" y2="0" />
+  <line x1="1" y1="0" x2="-8" y2="4" />
+ </g>
+
+ <!-- class definitions -->
+ <style type="text/css"><![CDATA[
+ .edge {
+  font-size: 13px;
+  stroke: black;
+  text-align: center;
+ }
+ .graph {
+  font-size: 16px;
+  text-align: center;
+ }
+ .node {
+  font-size: 16px;
+  text-align: center;
+ }
+ ]]></style>
+</defs>
+
+<!-- graph background with border (mainly for printing) -->
+<rect x="0.5" y="0.5" width="605.2" height="297" fill="white" stroke="white" />
+
+<g id="2" class="edge">
+ <!-- from Main Sim App to Sim Modules -->
+ <!-- vertical -->
+ <line x1="99.5" y1="59.4" x2="99.5" y2="109.6" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" transform="translate(99.5 110.6)rotate(90)"/>
+</g>
+
+<g id="4" class="edge">
+ <!-- from Sim Modules to Double Cycle List Generator -->
+ <!-- horizontal -->
+ <line x1="185.84" y1="149" x2="220.4" y2="149" stroke="#000000" />
+
+ <!-- horizontal -->
+ <line x1="220.4" y1="149" x2="259.4" y2="149" stroke="#000000" />
+
+ <!-- north/west corner -->
+ <g stroke="#000000">
+  <line x1="281.8" y1="117" x2="281.8" y2="149.5" />
+  <line x1="259.4" y1="149" x2="282.3" y2="149" />
+ </g>
+
+ <!-- south/east corner -->
+ <g stroke="#000000">
+  <line x1="281.8" y1="84.5" x2="281.8" y2="117" />
+  <line x1="281.3" y1="85" x2="298.72" y2="85" />
+ </g>
+ <use stroke="#000000" xlink:href="#ah" x="299.72" y="85"/>
+</g>
+
+<g id="6" class="edge">
+ <!-- from Double Cycle List Generator to Discrete Simulation Setup -->
+ <!-- vertical -->
+ <line x1="446.7" y1="123.4" x2="446.7" y2="173.6" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" transform="translate(446.7 174.6)rotate(90)"/>
+</g>
+
+<g id="8" class="edge">
+ <!-- from Sim Modules to Report Modules -->
+ <!-- vertical -->
+ <line x1="99.5" y1="187.4" x2="99.5" y2="237.6" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" transform="translate(99.5 238.6)rotate(90)"/>
+</g>
+
+<g id="0" class="node">
+ <!-- Main Sim App, rect -->
+ <rect fill="#ffffff" height="35" stroke="#000000" width="164" x="17.5" y="17.5" />
+ <text x="99" y="41" style="font-family:serif" fill="#000000" text-anchor="middle">Main Sim App</text>
+</g>
+
+<g id="1" class="node">
+ <!-- Sim Modules, rect -->
+ <rect fill="#ffffff" height="63" stroke="#000000" width="164" x="17.5" y="117.5" />
+ <text x="99" y="155" style="font-family:serif" fill="#000000" text-anchor="middle">Sim Modules</text>
+</g>
+
+<g id="3" class="node">
+ <!-- Double Cycle List Generator, rect -->
+ <rect fill="#ffffff" height="63" stroke="#000000" width="284" x="304.7" y="53.5" />
+ <text x="446" y="91" style="font-family:serif" fill="#000000" text-anchor="middle">Double Cycle List Generator</text>
+</g>
+
+<g id="5" class="node">
+ <!-- Discrete Simulation Setup, rect -->
+ <rect fill="#ffffff" height="63" stroke="#000000" width="284" x="304.7" y="181.5" />
+ <text x="446" y="219" style="font-family:serif" fill="#000000" text-anchor="middle">Discrete Simulation Setup</text>
+</g>
+
+<g id="7" class="node">
+ <!-- Report Modules, rect -->
+ <rect fill="#ffffff" height="35" stroke="#000000" width="164" x="17.5" y="245.5" />
+ <text x="99" y="269" style="font-family:serif" fill="#000000" text-anchor="middle">Report Modules</text>
+</g>
+
+</svg>
